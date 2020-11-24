@@ -1,4 +1,5 @@
 void dibujar() {
+  background(255);
   for (int i = 0; i < limy; i++) {
     for (int j = 0; j < limx; j++) {
       if (ran[i][j] == 0) {
@@ -16,7 +17,6 @@ void dibujar() {
       }
     }
   }
-  regre = true;
   if (limx>limy) {
     if (ajx == true) {
       fill(255, 0, 0);

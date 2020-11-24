@@ -9,4 +9,5 @@ void generar() {
       }
     }
   }
+  regre = true;
 }
